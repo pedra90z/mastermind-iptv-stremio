@@ -71,7 +71,7 @@ const builder = new addonBuilder(manifest);
 
 builder.defineCatalogHandler(async ({ type, id, extra }) => {
     console.log('Request for catalog:', { type, id, extra });
-    if (type !== 'tv' || id !== 'vivo-fibra-tv') {
+    if (type !== 'tv' || id !== 'professorx-tv') {
         return Promise.resolve({ metas: [] });
     }
 
