@@ -34,10 +34,10 @@ async function loadChannels() {
 }
 
 const manifest = {
-    id: 'community.iptvbrasil.vivo.online',
+    id: 'community.iptvbrasil.mastermind.online',
     version: '1.1.0',
-    name: 'IPTV Vivo Fibra (Online)',
-    description: 'Canais brasileiros ao vivo, hospedado online.',
+    name: 'Mastermind IPTV',
+    description: 'Se não estiver atualizado, mande listas m3u em gist para carvalhoclay@icloud.com',
     resources: ['stream', 'catalog', 'meta'],
     types: ['tv'],
     catalogs: [
@@ -63,8 +63,8 @@ const manifest = {
         }
     ],
     idPrefixes: ['vf-'],
-    logo: 'https://i.imgur.com/J5ORQ0a.png',
-    background: 'https://i.imgur.com/7W7WQ4W.jpg'
+    logo: 'https://i.imgur.com/DxrcqNW_d.webp?maxwidth=520&shape=thumb&fidelity=high',
+    background: 'https://t.ctcdn.com.br/8DxJzUzINYD_PWZP1pi8BXISznA=/768x432/smart/i992757.jpeg'
 };
 
 const builder = new addonBuilder(manifest);
