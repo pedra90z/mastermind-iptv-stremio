@@ -63,7 +63,6 @@ const manifest = {
         }
     ],
     idPrefixes: ['vf-'],
-    logo: 'https://i.imgur.com/DxrcqNW_d.webp?maxwidth=520&shape=thumb&fidelity=high',
     background: 'https://t.ctcdn.com.br/8DxJzUzINYD_PWZP1pi8BXISznA=/768x432/smart/i992757.jpeg'
 };
 
