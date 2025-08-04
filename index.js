@@ -34,17 +34,17 @@ async function loadChannels() {
 }
 
 const manifest = {
-    id: 'community.iptvbrasil.mastermind.online',
+    id: 'community.iptvbrasil.professorx.online',
     version: '1.1.0',
-    name: 'Mastermind IPTV',
+    name: 'ProfessorX IPTV',
     description: 'Se não estiver atualizado, mande listas m3u em gist para carvalhoclay@icloud.com',
     resources: ['stream', 'catalog', 'meta'],
     types: ['tv'],
     catalogs: [
         {
             type: 'tv',
-            id: 'vivo-fibra-tv',
-            name: 'Vivo Fibra TV',
+            id: 'professorx-tv',
+            name: 'ProfessorX IPTV',
             extra: [
                 {
                     name: 'genre',
@@ -63,6 +63,7 @@ const manifest = {
         }
     ],
     idPrefixes: ['vf-'],
+    logo: 'https://i.imgur.com/IDFSN8J.jpeg',
     background: 'https://t.ctcdn.com.br/8DxJzUzINYD_PWZP1pi8BXISznA=/768x432/smart/i992757.jpeg'
 };
 
